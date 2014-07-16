@@ -15,10 +15,10 @@
 
 makeCacheMatrix <- function(x = matrix()) {
     ## creates cache and methods list
-    m<<-NULL
+    m<<-NULL        ## in "parent" env.
     set<-function(y){
-        x<<-y       ## set value
-        m<<-NULL
+        x<<-y       ## set value in "parent" env.
+        m<<-NULL    ## in "parent" env.
     }
     get<-function() x
     setSolve<-function (inverse) m<<-inverse
