@@ -10,7 +10,7 @@
 ##  managed by the function cacheSolve:
 ##      a$get() >> gets actual value of a
 ##      a$set(matrix) >> sets matrix as the value of a (clear cache)
-##      a$setSolve() >> caches the inverse of a
+##      a$setSolve(matrix) >> caches matrix as the inverse of a
 ##      a$getSolve() >> delivers (from cache) the inverse of a
 
 makeCacheMatrix <- function(x = matrix()) {
