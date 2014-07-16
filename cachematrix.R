@@ -2,6 +2,7 @@
 ## when we need calculate it several times
 
 ## function: makeCacheMatrix
+## (uses special operator <<- which stores values in "parent" environment)
 
 ## Usage:
 ## a<-makeCacheMatrix(matrix <default NULL>) >> creates cache matrix a
